@@ -119,7 +119,7 @@ else
 	net.Receive( "RSWorkshop", function()
 		local tab = net.ReadTable()
 		for k,v in pairs( tab ) do
-			toDownload[ v.publishedfileid ] = true
+			toDownload[ k ] = true
 		end
 	end )
 end
