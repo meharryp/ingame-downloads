@@ -1,3 +1,5 @@
+-- There are bugs here, tread lightly
+
 if SERVER then
 	util.AddNetworkString( "RSWorkshop" )
 
